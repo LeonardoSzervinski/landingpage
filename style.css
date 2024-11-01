@@ -39,7 +39,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 15px 150px;
-    box-shadow: 0 0.1rem 0.5rem #9b9b9b;
+    box-shadow: 0 0.1rem 0.5rem #c2c1c3;
     width: 100%;
     background: white;
     transition: all 0.5;
@@ -273,6 +273,48 @@ margin-bottom: 1rem;
 .three .cards-item p.descricao-servicos{
     transition: 0.3s;
 }
+.service-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    text-align: justify;
+    background-color: #d3e6fd;
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    background-color: #A2A3D1;
+}
+
+.service-card:hover .service-name {
+    color: var(--white);
+}
+
+.service-card img {
+    background-color: purple;
+    border-radius: 14px;
+    width: 70px;
+    padding: 9px;
+    
+}
+
+.service-card .service-name {
+    margin: 10px 0;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.service-card .service-description {
+    transition: 0.3s;
+}
+
 /* Three final */
 
 /* Clientes começo */
@@ -508,45 +550,6 @@ margin-bottom: 1rem;
                     text-align: center;
                 }
 }
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 18px;
-    text-align: left;
-    box-shadow: 0 0.1rem 0.5rem #9b9b9b;
-  }
-  
-  table th, table td {
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-  }
-  
-  table th {
-    background-color: var(--blue-white);
-    color: var(--white);
-    font-weight: bold;
-  }
-  
-  table tr:nth-child(even) {
-    background-color: #f3f3f3;
-  }
-  
-  table tr:hover {
-    background-color: var(--blue-white);
-    color: var(--white);
-    transition: background-color 0.3s ease;
-  }
-  
-  table td {
-    color: var(--black);
-  }
-  
-  table th:first-child, table td:first-child {
-    background-color: var(--dark-blue);
-    color: var(--white);
-    font-weight: bold;
-  }
 
 .footer{
     width: 100%;
