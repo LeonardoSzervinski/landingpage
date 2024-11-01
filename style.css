@@ -373,10 +373,6 @@ margin-bottom: 1rem;
     border-radius: 10px;
 }
 
-/* Págin sobre final */
-
-/* Botão wpp Começo */
-
 .whatsapp-btn-container{
     position: fixed;
     right: 10px;
@@ -414,7 +410,7 @@ margin-bottom: 1rem;
     background-color: var(--white);
     padding: 10px 15px;
     margin: 3px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .footer p{
     margin-top: 15px;
@@ -512,6 +508,45 @@ margin-bottom: 1rem;
                     text-align: center;
                 }
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 0.1rem 0.5rem #9b9b9b;
+  }
+  
+  table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: var(--blue-white);
+    color: var(--white);
+    font-weight: bold;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  
+  table tr:hover {
+    background-color: var(--blue-white);
+    color: var(--white);
+    transition: background-color 0.3s ease;
+  }
+  
+  table td {
+    color: var(--black);
+  }
+  
+  table th:first-child, table td:first-child {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    font-weight: bold;
+  }
 
 .footer{
     width: 100%;
